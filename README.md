@@ -212,9 +212,6 @@ C = 1
 
 ## Imagen del circuito
 
-_Agrega aquí la captura de tu circuito desde Tinkercad_
-
-![Circuito lógico](ruta_de_la_imagen.png)
 
 ## Tabla de verdad
 
