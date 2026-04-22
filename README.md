@@ -1,4 +1,5 @@
 # Parcial-Sistemas
+David Esteban Mesa Gonzalez
 
 # Parcial de Sistemas Digitales
 
