@@ -62,7 +62,7 @@ Distribuye una entrada hacia una de varias salidas.
 
 Funcionamiento:
 
-* S = 010 → Y2 = D
+* S = 010 - Y2 = D
 
 
 ## Sumadores y Circuitos Secuenciales
