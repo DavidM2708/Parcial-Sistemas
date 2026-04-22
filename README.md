@@ -111,7 +111,7 @@ Es una herramienta gráfica para simplificar funciones booleanas.
 ### Funcionamiento
 
 1. Se llena con la tabla de verdad
-2. Se agrupan los valores (1) en bloques
+2. Se agrupan los valores en bloques
 3. Se obtiene una expresión simplificada
 
 
@@ -169,19 +169,18 @@ X = A B̅ C
 
 La ecuación final requiere:
 
-- 1 compuerta NOT (para B)
+- 1 compuerta NOT para B
 - 1 compuerta AND de 3 entradas
 
 
 
 
-## Construcción del circuito en Tinkercad (Paso a paso)
+## Logica circuito en Tinkercad 
  
  Componentes:
    - 3 interruptores (A, B, C)
    - 1 compuerta NOT
-   - 1 compuerta AND de 3 entradas  
-     (o 2 AND de 2 entradas)
+   - 1 compuerta AND de 3 entradas 
    - 1 LED
    - 1 resistencia de 220Ω
 
@@ -231,27 +230,28 @@ C = 1
 
 ## 1. Análisis de la temática de los semiconductores en el año 2026
 
-En el año 2026, los semiconductores se consolidan como la base fundamental de la transformación digital global. La creciente demanda de tecnologías como la inteligencia artificial, el Internet de las cosas (IoT), los vehículos autónomos y la computación en la nube ha impulsado el desarrollo de chips más potentes, eficientes y pequeños.
+En 2026, los semiconductores se han convertido en el corazón de la revolución digital. La demanda de tecnologías como la inteligencia artificial, el Internet de las cosas, los autos autónomos y la nube está empujando a crear chips cada vez más pequeños, potentes y eficientes.
 
-Además, se observa una fuerte inversión en investigación para superar los límites físicos del silicio, explorando materiales alternativos y nuevas arquitecturas como los chips 3D.
+Al mismo tiempo, la investigación busca ir más allá del silicio, explorando nuevos materiales y arquitecturas innovadoras, como los chips tridimensionales.
 
-Asimismo, la industria enfrenta desafíos importantes como la escasez de materiales, tensiones geopolíticas y la necesidad de cadenas de suministro más resilientes. En este contexto, los países y empresas buscan mayor independencia tecnológica, lo que ha incrementado la construcción de fábricas de semiconductores en distintas regiones del mundo.
+Pero no todo es avance: la industria enfrenta retos serios, desde la escasez de insumos y las tensiones geopolíticas, hasta la necesidad de cadenas de suministro más sólidas. Por eso, tanto países como empresas están apostando por construir más fábricas en distintas regiones, buscando asegurar su independencia tecnológica y reducir riesgos.
 
 
 ## 2. Empresas más relevantes del sector y su impacto en los sistemas digitales
 
-Entre las empresas más influyentes del sector destacan Intel, TSMC, NVIDIA, Samsung y AMD. Estas compañías lideran el diseño y fabricación de semiconductores que hacen posible el funcionamiento de los sistemas digitales modernos.
+En el mundo de los semiconductores, algunas compañías marcan el rumbo de la innovación y el desarrollo tecnológico. Intel, TSMC, NVIDIA, Samsung y AMD son protagonistas clave que hacen posible que los sistemas digitales funcionen con la velocidad y eficiencia que hoy damos por sentada.
 
-Intel continúa desarrollando procesadores para computadoras y servidores, influyendo directamente en el rendimiento de los sistemas informáticos. TSMC es clave en la fabricación de chips avanzados para múltiples empresas tecnológicas, siendo un pilar en la cadena de producción global. NVIDIA se ha posicionado como líder en el desarrollo de GPUs para inteligencia artificial y procesamiento gráfico, esenciales en sistemas digitales complejos. Samsung, además de fabricar chips de memoria, impulsa la innovación en dispositivos móviles y almacenamiento. AMD compite en el mercado de procesadores de alto rendimiento, ofreciendo soluciones eficientes para computación avanzada.
+Intel sigue siendo referente en procesadores para computadoras y servidores, impactando directamente en el rendimiento de la informática. TSMC, se ha convertido en el gran fabricante de chips avanzados para múltiples empresas, sosteniendo gran parte de la cadena global de producción. NVIDIA se ha consolidado como líder en GPUs, fundamentales para inteligencia artificial y gráficos complejos. Samsung no solo fabrica memorias, también impulsa avances en móviles y soluciones de almacenamiento. AMD compite con fuerza en el mercado de procesadores de alto rendimiento, ofreciendo alternativas eficientes para la computación avanzada.
 
-El impacto de estas empresas en los sistemas digitales es significativo, ya que sus tecnologías permiten mayor velocidad de procesamiento, eficiencia energética y capacidad de manejo de grandes volúmenes de datos.
+El aporte de estas compañías es enorme, gracias a sus tecnologías, los sistemas digitales logran procesar más rápido, consumir menos energía y manejar cantidades masivas de datos con mayor facilidad.
+
 
 ## Código del Chatbot (Python)
 
 ```python
 import requests
 
-API_KEY = 'TU_API_KEY_AQUI'
+API_KEY = '     '
 API_URL = 'https://api.deepseek.com/v1/chat/completions'
 
 
@@ -341,7 +341,7 @@ def main():
         mensaje = input("Tú: ")
 
         if mensaje.lower() == "salir":
-            print("Chatbot: Hasta luego 👋")
+            print("Chatbot: Hasta luego")
             break
 
         respuesta = enviar_mensaje(mensaje)
